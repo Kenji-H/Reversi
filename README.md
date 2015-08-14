@@ -1,5 +1,11 @@
 # Reversi
-Reversi AI programs. 
+
+### Synopsis
+Reversi AI programs.  
+I am going to implement Alpha-Beta Tree Search, Monte Carlo Tree Search.   
+I also interested in machine-learning-based AI.   
+![visualizer](https://github.com/Kenji-H/Reversi/blob/master/Reversi/doc/visualizer.png "reversi_visualizer")
+
 
 ### Architecture
 Client-server model.   
@@ -9,7 +15,8 @@ Server is responsible for the management of games:
 3) flips stones based on hands given.  
 4) determins which player won the game.  
   
-Client is responsible for giving a hand based on the current game board. This hand decision is delegated to a Player instance.
+Client is responsible for giving a hand based on the current game board. This hand decision is delegated to a Player instance.  
+![architecture](https://github.com/Kenji-H/Reversi/blob/master/Reversi/doc/architecture.png "architecture")
 
 ### How to run
 As an example, I will show you how to run the programs with *HumanPlayer* and *DfsStoneNumPlayer*.
